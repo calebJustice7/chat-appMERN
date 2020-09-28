@@ -1,0 +1,26 @@
+.send-message-form {
+    background-color: #ebebeb;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+.send-message-form input {
+    padding: 20px;
+    border: none;
+    width: calc(85% - 22px);
+    border-radius: 20px;
+    border: 1px solid #dadfea;
+    font-size: .95em;
+    outline: none;
+}
+.send-message-form button {
+    padding: 20px;
+    border: none;
+    width: calc(15% - 20px);
+    background-color :#dadfea;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    font-size: .95em;
+}

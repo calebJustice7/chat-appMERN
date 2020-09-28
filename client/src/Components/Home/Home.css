@@ -1,0 +1,78 @@
+.home {
+    background-color: #D9DBD3;
+    height: calc(100vh - 40px);
+    padding-top: 40px;
+}
+.home > .home__content {
+    background-color: rgb(240, 240, 240);
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+    height: 90vh;
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+}
+
+.home > .home__content > .home__sidebar {
+    flex: .3;
+    background-color: #fafafa;
+}
+
+.home__conversation {
+    flex: .7;
+}
+
+.home__conversationHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 20px;
+    border-bottom: 2px solid #dadfea;
+    border-left: 2px solid #dadfea;
+}
+
+.home__conversationHeader i {
+    font-size: 1.9em;
+    cursor: pointer;
+    transition: .8s ease-in-out all;
+}
+
+.home__conversationHeader i:hover {
+    transform: rotateZ(360deg);
+    color: #5F5DE6;
+}
+.sidebar__header {
+    border-bottom: 2px solid #dadfea;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 550;
+    padding: 16px 0;
+}
+
+.sidebar__conversation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    font-size: 1.3em;
+}
+
+.sidebar__conversation i {
+    font-size: 1.35em;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.sidebar__conversation i:hover {
+    color: #30D158;
+}
+
+.home__conversationHeaderRight {
+    display: flex;
+    align-items: center;
+}
+
+.user-display-name {
+    margin-right: 15px;
+    font-weight: 400;
+    font-size: 1.15em;
+}

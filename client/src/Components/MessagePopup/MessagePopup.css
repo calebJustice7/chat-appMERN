@@ -1,0 +1,22 @@
+.message-popup {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.message-popup .message-content{
+    width: 300px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 13px;
+    font-weight: 500;
+    font-size: 1.12em;
+    /* margin-top: -70px; */
+}
